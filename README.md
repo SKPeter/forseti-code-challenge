@@ -7,3 +7,7 @@ Este projeto isolado foi desenvolvido para um desafio de programação, com o ob
 2. Extraia todos os outros arquivos neste repositório para uma pasta acessível via HTTP do seu ambiente.
 3. Abra em um editor de texto o arquivo variables_sample.php nas linhas TODO e insira os dados de conexão do banco de dados que foi criado.
 4. Altere o nome do arquivo variables_sample.php para variables.php
+
+## Utilização
+Ao inicializar o ambiente e acessar a aplicação, uma tabela será exibida, em conjunto a um botão de ação para obter novos artigos do ComprasNet.
+Ao clicar no botão, a página será atualizada com os novos artigos que puderem ser obtidos.
