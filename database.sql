@@ -1,0 +1,15 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+CREATE TABLE `news` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `title` text NOT NULL,
+  `date_time` datetime NOT NULL,
+  `url` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+ALTER TABLE `news`
+  ADD PRIMARY KEY (`id`),
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+COMMIT;
