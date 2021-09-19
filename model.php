@@ -19,7 +19,7 @@ class ArticleModel {
         if (count($conditions)) $conditions = " WHERE " . implode(" AND ", $conditions);
         else $conditions = "";
         
-        $pdo = new PDO("mysql:dbname=".DB_NAME.";host=localhost", DB_USERNAME, DB_PASSWORD);
+        $pdo = new PDO("mysql:dbname=".DB_NAME.";host=".DB_HOST, DB_USERNAME, DB_PASSWORD);
         $query = $pdo->query("
             SELECT `id`, `title`, DATE_FORMAT(`date_time`, '%d/%m/%y %H:%i') as `date_time`, `url`, `url_hash` FROM news
             " . $conditions . "
@@ -36,7 +36,7 @@ class ArticleModel {
         if (!$this->url_hash) $this->url_hash = md5($this->url);
 
         if (!isset($this->id)) {
-            $pdo = new PDO("mysql:dbname=".DB_NAME.";host=localhost", DB_USERNAME, DB_PASSWORD);
+            $pdo = new PDO("mysql:dbname=".DB_NAME.";host=".DB_HOST, DB_USERNAME, DB_PASSWORD);
             $query = $pdo->prepare("
             INSERT INTO `news` (`title`, `date_time`, `url`, `url_hash`)
             VALUES (:title, :date_time, :url, :url_hash);
