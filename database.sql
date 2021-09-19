@@ -1,6 +1,3 @@
-CREATE DATABASE IF NOT EXISTS `forseti-code-challenge`;
-USE `forseti-code-challenge`;
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+03:00";

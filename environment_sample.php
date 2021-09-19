@@ -1,6 +1,6 @@
 <?php
 // Just insert the database name, user and password where shown.
 
-define('DB_NAME', 'forseti-code-challenge');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'root123');
+define('DB_NAME', 'INSERT_DATABASE_NAME_HERE');
+define('DB_USERNAME', 'INSERT_USERNAME_HERE');
+define('DB_PASSWORD', 'INSERT_PASSWORD_HERE');
