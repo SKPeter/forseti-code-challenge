@@ -13,3 +13,4 @@ Este projeto isolado foi desenvolvido para um desafio de programação, com o ob
 ## Utilização
 Ao inicializar o ambiente e acessar a aplicação, uma tabela será exibida, em conjunto a um botão de ação para obter novos artigos do ComprasNet.
 Ao clicar no botão, a página será atualizada com os novos artigos que puderem ser obtidos.
+Pode-se clicar no botão novamente para ir obtendo novas notícias, caso hajam mais.
