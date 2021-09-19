@@ -6,7 +6,7 @@ Este projeto isolado foi desenvolvido para um desafio de programação, com o ob
 1. Importe o arquivo database.sql em um banco de dados MySQL previamente criado. Recomenda-se que o banco de dados esteja no mesmo ambiente da aplicação, caso não esteja, siga o passo 3.5 mais à frente.
 2. Extraia todos os outros arquivos neste repositório para uma pasta acessível via HTTP do seu ambiente.
 3. Abra em um editor de texto o arquivo environment_sample.php e insira os dados de conexão do banco de dados que foi criado nas linhas 4, 5 e 6 do arquivo. 
-Caso o banco de dados não esteja no mesmo ambiente da aplicação, coloque o endereço onde o banco de dados está localizado na linha 7 do arquivo, substituindo o "localhost".
+  1. Caso o banco de dados não esteja no mesmo ambiente da aplicação, coloque o endereço onde o banco de dados está localizado na linha 7 do arquivo, substituindo o "localhost".
 4. Altere o nome do arquivo environnment_sample.php para environment.php
 5. Acesse a aplicação no endereço do servidor onde foi feita a instalação.
 
